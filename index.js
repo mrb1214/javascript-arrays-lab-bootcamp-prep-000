@@ -21,3 +21,7 @@ function appendKitten(name){
   const moreKittens= [...kittens, name];
   return moreKittens
 }
+function prependKitten(name){
+  const moreKittens= [name, ...kittens];
+  return moreKittens
+}
