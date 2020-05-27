@@ -25,3 +25,6 @@ function prependKitten(name){
   const moreKittens= [name, ...kittens];
   return moreKittens
 }
+function removeLastKitten(){
+  const lessKittens= []
+}
